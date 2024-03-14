@@ -1,0 +1,46 @@
+nav{
+    background-color: #5758BB !important; 
+}
+
+#nav-links li a{
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nav-links li a:hover{
+    color: black !important;
+}
+
+#dropdown{
+    background-color: #9980FA;
+    border-radius: 15px;
+}
+
+#dropdown li a{
+    color: black !important;
+}
+
+.active{
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+#product-heading{
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 60px;
+    margin: auto;
+    background-color: #5758BB;
+    color: white;
+    padding: 16px;
+}
+
+
+
+@media screen and (max-width: 996px)
+{
+    .active{
+        background-color: transparent;
+    }
+}
